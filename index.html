@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Architect Portfolio — Zairenz</title>
+  <meta name="description" content="Portfolio of Architect Zairenz — projects, skills, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#top">AZ</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container" id="top">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="accent">Zairenz</span>.</h1>
+      <p class="lead">Architecture student building human-centered, sustainable spaces.<br>Here’s a clean, fast portfolio you can customize in minutes.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="assets/Resume.pdf" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="https://via.placeholder.com/720x480?text=Hero+Image" alt="Featured project" />
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <h2>About</h2>
+    <p>Short intro about you. Replace this with 3–4 lines: design philosophy, strengths (e.g., Revit, SketchUp, AutoCAD), and interests (e.g., MICE, neo‑futurism, sustainable materials).</p>
+    <ul class="chips">
+      <li>AutoCAD</li>
+      <li>SketchUp</li>
+      <li>Enscape</li>
+      <li>Revit</li>
+      <li>MS Project</li>
+    </ul>
+  </section>
+
+  <section class="projects container" id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="https://via.placeholder.com/800x600?text=Project+1" alt="Project 1" />
+        <div class="card-body">
+          <h3>Clark International Exhibition & Convention Center</h3>
+          <p>Neo‑futuristic concept inspired by a butterfly form with sustainable strategies and efficient circulation.</p>
+          <a class="btn small" href="#" target="_blank" rel="noopener">View case study</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/800x600?text=Project+2" alt="Project 2" />
+        <div class="card-body">
+          <h3>Mixed‑Use Streetscape Concept — Cabanatuan</h3>
+          <p>Pedestrian‑first streetscape proposal with shaded corridors, bike lanes, and climate‑responsive design.</p>
+          <a class="btn small" href="#" target="_blank" rel="noopener">View case study</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/800x600?text=Project+3" alt="Project 3" />
+        <div class="card-body">
+          <h3>Lighting Shop Fit‑Out</h3>
+          <p>Functional retail interior with modular displays and efficient lighting layouts.</p>
+          <a class="btn small" href="#" target="_blank" rel="noopener">View case study</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact container" id="contact">
+    <h2>Contact</h2>
+    <p>For inquiries or collaborations, reach me at:</p>
+    <ul class="contact-list">
+      <li>Email: <a href="mailto:zairenz@example.com">zairenz@example.com</a></li>
+      <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></li>
+      <li>Phone: +63 9xx xxx xxxx</li>
+    </ul>
+    <form class="contact-form" name="contact">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" placeholder="Your name">
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" placeholder="you@example.com">
+      </label>
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="4" placeholder="How can I help?"></textarea>
+      </label>
+      <button class="btn primary" type="submit" onclick="alert('This is a static demo form. Replace with Netlify Forms or Formspree.'); return false;">Send</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Zairenz — All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
